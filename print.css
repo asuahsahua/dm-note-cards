@@ -1,0 +1,21 @@
+@media all {
+    .page-break {
+        display: none;
+    }
+}
+
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+
+    .card-container {
+        position: absolute;
+        margin: -4.5in 0 0 -2.5in;
+    }
+
+    form {
+        display: none;
+    }
+}

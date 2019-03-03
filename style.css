@@ -1,34 +1,22 @@
-@media all {
-    .page-break {
-        display: none;
-    }
-}
-
-@media print {
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
-}
-
 .card-container {
-    position: absolute;
     width: 5in !important;
-    height: 9in !important;
+    height: 3in !important;
     z-index: 15;
     top: 50%;
     left: 50%;
-    margin: -4.5in 0 0 -2.5in;
 }
 
 .card {
-    height: 33%;
-    width: 100%;
-    border-style: dashed;
+    /* border-style: dashed;
     border-width: 1px;
-    border-color: lightgrey;
+    border-color: lightgrey; */
+
+    outline: lightgrey dashed 1px;
+
+    height: 100%;
     margin-top: 0px;
-    padding: 5px 0 0 5px;
+    /* padding: 5px 0 0 5px; */
+    padding: 0 0 0 0;
 
     font-family: Tahoma, serif !important;
     font-size: 12px;

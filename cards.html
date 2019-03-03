@@ -1,24 +1,20 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css" />
+        <link rel="stylesheet" type="text/css" href="print.css" />
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/remarkable.min.js"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
     </head>
     <body>
-        <div class="card-container">
-            <div class="card">
-                <h1>Stonehill Inn</h1>
-                <p>Owner: Toblen Stonehill (commoner)</p>
-                <ul>
-                    <li>Short, friendly young human male</li>
-                    <li>Native of Triboar (to east)</li>
-                    <li>Came to Phandalin to prospect but better at innkeeping</li>
-                </ul>
-            </div>
-            <div class="card">
-                <p>This is a card</p>
-            </div>
-            <div class="card">
-                <p>This is a card</p>
-            </div>
+        <form id="adventure-selector">
+            <select>
+                <option></option>
+                <option value="phandelver">Phandelver</option>
+            </select>
+        </form>
+
+        <div id="cards">
         </div>
     </body>
 </html>
