@@ -1,21 +1,27 @@
+.cards {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card-container:nth-child(3n+1) {
+    margin-top: 57px;
+}
+
 .card-container {
     width: 5in !important;
     height: 3in !important;
     z-index: 15;
     top: 50%;
     left: 50%;
+    margin-left: 127px;
 }
 
 .card {
-    /* border-style: dashed;
-    border-width: 1px;
-    border-color: lightgrey; */
-
     outline: lightgrey dashed 1px;
 
     height: 100%;
     margin-top: 0px;
-    /* padding: 5px 0 0 5px; */
     padding: 0 0 0 0;
 
     font-family: Tahoma, serif !important;
