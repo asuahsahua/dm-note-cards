@@ -10,12 +10,17 @@
         page-break-before: always;
     }
 
-    .card-container {
-        position: absolute;
+    .cards {
+        /* position: absolute; */
         margin: -4.5in 0 0 -2.5in;
+        width: 100%;
     }
 
     form {
         display: none;
+    }
+
+    .card-container:nth-child(3n+3) {
+        page-break-after: always;
     }
 }

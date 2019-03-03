@@ -1,7 +1,18 @@
 jQuery(function() {
     var md = new Remarkable();
 
-    function addData(data) {
+    $("#adventure-selector select").change(function() {
+        let self = jQuery(this);
+
+        $.get({
+            url: "./adventures/" + self.val() + ".md",
+            success: addCards
+        });
+    });
+
+    function addCards(data) {
+        $("#cards").html("");
+
         // split the data between each h1
         // seek the first line that starts with '# '
         var cards = [];
@@ -27,27 +38,35 @@ jQuery(function() {
     }
 
     function addCard(card) {
-        console.log("Adding card:", card);
+        var lines1 = card.split('\n');
+        var lines2 = [];
 
-        var html = md.render(card);
+        var card1Container = $(`<div class="card-container"></div>`);
+        var card1 = $(`<div class="card front"></div>`);
+        card1.appendTo(card1Container);
+        $("#cards").append(card1Container);
 
-        $(`<div class="card-container"><div class="card">${html}</div></div>`)
-            .appendTo($("#cards"))
+        var card2Container = $(`<div class="card-container"></div>`);
+        var card2 = $(`<div class="card back"></div>`);
+        card2.appendTo(card2Container);
+        $("#cards").append(card2Container);
 
-        // <div class="card-container">
-        //     <div class="card">
-        //     </div>
-        // </div>
+        // TODO: Multiple cards, front and back?
+        do {
+            card1.html(md.render(lines1.join('\n')));
+            card2.html(md.render(lines2.join('\n')));
+
+            if (card1[0].scrollHeight <= card1Container.height()) {
+                break;
+            }
+
+            lines2.unshift(lines1.pop());
+        } while (true && lines1.length);
     }
 
-    $("#adventure-selector select").change(function() {
-        let self = jQuery(this);
-
-        $.get({
-            url: "./adventures/" + self.val() + ".md",
-            success: function(data) {
-                addData(data);
-            }
-        });
+    $("#adventure-selector select").val("phandelver");
+    $.get({
+        url: "./adventures/phandelver.md",
+        success: addCards
     });
 });
