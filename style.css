@@ -1,0 +1,52 @@
+@media all {
+    .page-break {
+        display: none;
+    }
+}
+
+@media print {
+    .page-break {
+        display: block;
+        page-break-before: always;
+    }
+}
+
+.card-container {
+    position: absolute;
+    width: 5in !important;
+    height: 9in !important;
+    z-index: 15;
+    top: 50%;
+    left: 50%;
+    margin: -4.5in 0 0 -2.5in;
+}
+
+.card {
+    height: 33%;
+    width: 100%;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: lightgrey;
+    margin-top: 0px;
+    padding: 5px 0 0 5px;
+
+    font-family: Tahoma, serif !important;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 30px;
+    margin: 0 0 0 0;
+    border-bottom-color: black;
+    border-bottom: dotted 1px;
+}
+
+p {
+    margin: 0 0 0 0;
+}
+
+ul {
+    margin: 0 0 0 0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
