@@ -1,18 +1,31 @@
-# Phandalin
-**The Stonehill Inn**. If the players aren’t sure what their characters should do, encourage them to begin at the Stonehill Inn. The NPCs there are “pointers” who can direct the characters toward the various adventure opportunities and important rumors that can be found in other parts of the town. By visiting the inn, the characters learn what other places they should visit.
+# Goblin Ambush & Trail
+## Goblin Ambush
+> You've been on the Triboar Trail for about half a day. As you come around a bend, you spot two dead horses sprawled about fifty feet ahead of you, blocking the path. Each has several black-feathered arrows sticking out of it. The woods press close to the trail here, with a steep embankment and dense thickets on either side.
 
-**Redbrand Ruffians**. Sooner or later, the adventurers run into the thugs who run Phandalin. All you need to do is choose when the ruffians appear. After the characters have had a chance to visit several locations in town and talk to the townsfolk, they might decide to go looking for the Redbrands. When they do, run the “Redbrand Ruffians” encounter. Alternatively, if the characters are reluctant to seek out the ruffians, the Redbrands can come looking for them at a time of your choosing.
+On inspection:
 
-**Finding Cragmaw Castle**. The characters might want to seek out Cragmaw Castle to find and rescue Gundren Rockseeker. Most of the townsfolk are preoccupied with the Redbrands, and no one in town knows the location of Cragmaw Castle. Qelline Alderleaf, Sildar Hallwinter, and Halia Thornton can offer suggestions on how the party might find someone who knows the location.
+> The saddlebags have been looted. Nearby lies an empty leather map case.
 
-**The Stonehill Inn**. If the players aren’t sure what their characters should do, encourage them to begin at the Stonehill Inn. The NPCs there are “pointers” who can direct the characters toward the various adventure opportunities and important rumors that can be found in other parts of the town. By visiting the inn, the characters learn what other places they should visit.
+Four **goblins** appear, two on each side of the road. Encounter begins when someone approaches.
 
-**Redbrand Ruffians**. Sooner or later, the adventurers run into the thugs who run Phandalin. All you need to do is choose when the ruffians appear. After the characters have had a chance to visit several locations in town and talk to the townsfolk, they might decide to go looking for the Redbrands. When they do, run the “Redbrand Ruffians” encounter. Alternatively, if the characters are reluctant to seek out the ruffians, the Redbrands can come looking for them at a time of your choosing.
+**FIGHT!**
 
-**Finding Cragmaw Castle**. The characters might want to seek out Cragmaw Castle to find and rescue Gundren Rockseeker. Most of the townsfolk are preoccupied with the Redbrands, and no one in town knows the location of Cragmaw Castle. Qelline Alderleaf, Sildar Hallwinter, and Halia Thornton can offer suggestions on how the party might find someone who knows the location.
+Party can spare a goblin, which can be persuaded to lead to Cragmaw Hideout while avoiding traps.
 
-# Stonehill Inn
-Owner: Toblen Stonehill (commoner)
-* Short, friendly young human male
-* Native of Triboar (to east)
-* Came to Phandalin to prospect but better at innkeeping
+Any inspection will show this has been used for ambushes for a while. A trail behind thickets to north leads northwest to **Goblin Trail**.
+
+-----------
+
+## Goblin Trail
+
+DC 10 Wisdom (Survival) check: ~a dozen goblins gone through, dragging two human-sized bodies away
+
+Party can steer wagon away and tie off oxen (safely)
+
+Five miles northwest: Cragmaw hideout. Request marching orders.
+
+**Snare.** About 10 minutes in, **Perception(Wis)12** check. On fail: **SaveDex10** or suspended 10 feet above ground. Character is restrained until 1+ slashing dmg done to cord. **1d6** bludgeoning from fall if not lowered carefully.
+
+**Pit.** In another 10 minutes, camo'd pit. 6ft wide, 10 deep. **Perception(Wis)15** check. On fail: **SaveDex10** or fall in, **1d6** bludgeoning. No check to get out.
+
+Arriving at **Cragmaw Hideout**: **75xp**

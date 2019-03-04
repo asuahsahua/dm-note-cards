@@ -39,6 +39,19 @@ h1 {
     border-bottom: dotted 1px;
 }
 
+h2 {
+    margin: 0 0 0 0;
+}
+
+h3 {
+    margin: 0 0 0 0;
+}
+
+blockquote {
+    color: grey;
+    margin: 2px 2px 0px 10px;
+}
+
 p {
     margin: 0 0 0 0;
 }
