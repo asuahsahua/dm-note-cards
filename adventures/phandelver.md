@@ -14,7 +14,8 @@ Party can spare a goblin, which can be persuaded to lead to Cragmaw Hideout whil
 
 Any inspection will show this has been used for ambushes for a while. A trail behind thickets to north leads northwest to **Goblin Trail**.
 
------------
+<br/>
+<br/>
 
 ## Goblin Trail
 

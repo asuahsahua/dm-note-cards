@@ -85,8 +85,8 @@ jQuery(function() {
 
         // TODO: Multiple cards, front and back?
         do {
-            card1.html(md.render(lines1.join('\n')));
-            card2.html(md.render(lines2.join('\n')));
+            card1.html(marked(lines1.join('\n')));
+            card2.html(marked(lines2.join('\n')));
 
             if (card1[0].scrollHeight <= card1Container.height()) {
                 break;
