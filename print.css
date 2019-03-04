@@ -1,18 +1,7 @@
-@media all {
-    .page-break {
-        display: none;
-    }
-}
-
 @media print {
-    .page-break {
-        display: block;
-        page-break-before: always;
-    }
-
     .cards {
-        /* position: absolute; */
-        margin: 0 0 0 -2.5in;
+        position: absolute;
+        margin: -4.5in 0 0 -2.5in;
         width: 100%;
     }
 
