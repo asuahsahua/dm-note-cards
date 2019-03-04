@@ -4,8 +4,12 @@
     align-content: center;
 }
 
-.card-container:nth-child(3n+1) {
-    margin-top: 57px;
+.card-container:nth-child(1) {
+    margin-top: 60px;
+}
+
+.card-container:nth-child(3n+4) {
+    margin-top: 67px;
 }
 
 .card-container {
@@ -14,7 +18,7 @@
     z-index: 15;
     top: 50%;
     left: 50%;
-    margin-left: 127px;
+    margin-left: 125px;
 }
 
 .card {
